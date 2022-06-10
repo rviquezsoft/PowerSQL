@@ -1,0 +1,10 @@
+C:\Users\rviquez\source\repos\PowerSQL\PowerSQL\bin\Debug\netstandard2.0\PowerSQL.deps.json
+C:\Users\rviquez\source\repos\PowerSQL\PowerSQL\bin\Debug\netstandard2.0\PowerSQL.dll
+C:\Users\rviquez\source\repos\PowerSQL\PowerSQL\bin\Debug\netstandard2.0\PowerSQL.pdb
+C:\Users\rviquez\source\repos\PowerSQL\PowerSQL\obj\Debug\netstandard2.0\PowerSQL.csproj.AssemblyReference.cache
+C:\Users\rviquez\source\repos\PowerSQL\PowerSQL\obj\Debug\netstandard2.0\PowerSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rviquez\source\repos\PowerSQL\PowerSQL\obj\Debug\netstandard2.0\PowerSQL.AssemblyInfoInputs.cache
+C:\Users\rviquez\source\repos\PowerSQL\PowerSQL\obj\Debug\netstandard2.0\PowerSQL.AssemblyInfo.cs
+C:\Users\rviquez\source\repos\PowerSQL\PowerSQL\obj\Debug\netstandard2.0\PowerSQL.csproj.CoreCompileInputs.cache
+C:\Users\rviquez\source\repos\PowerSQL\PowerSQL\obj\Debug\netstandard2.0\PowerSQL.dll
+C:\Users\rviquez\source\repos\PowerSQL\PowerSQL\obj\Debug\netstandard2.0\PowerSQL.pdb
