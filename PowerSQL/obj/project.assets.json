@@ -3525,8 +3525,8 @@
     },
     "FastMember/1.5.0": {
       "type": "project",
-      "path": "../../../../source/repos/PowerSQL/fast-member/FastMember/FastMember.csproj",
-      "msbuildProject": "../../../../source/repos/PowerSQL/fast-member/FastMember/FastMember.csproj"
+      "path": "../FastMember/FastMember.csproj",
+      "msbuildProject": "../FastMember/FastMember.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3596,16 +3596,16 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\rviquez\\source\\repos\\PowerSQL\\fast-member\\FastMember\\FastMember.csproj": {
-              "projectPath": "C:\\Users\\rviquez\\source\\repos\\PowerSQL\\fast-member\\FastMember\\FastMember.csproj"
+            "C:\\Users\\rviquez\\Desktop\\PowerSQL\\PowerSQL\\FastMember\\FastMember.csproj": {
+              "projectPath": "C:\\Users\\rviquez\\Desktop\\PowerSQL\\PowerSQL\\FastMember\\FastMember.csproj"
             }
           }
         },
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\rviquez\\source\\repos\\PowerSQL\\fast-member\\FastMember\\FastMember.csproj": {
-              "projectPath": "C:\\Users\\rviquez\\source\\repos\\PowerSQL\\fast-member\\FastMember\\FastMember.csproj"
+            "C:\\Users\\rviquez\\Desktop\\PowerSQL\\PowerSQL\\FastMember\\FastMember.csproj": {
+              "projectPath": "C:\\Users\\rviquez\\Desktop\\PowerSQL\\PowerSQL\\FastMember\\FastMember.csproj"
             }
           }
         }

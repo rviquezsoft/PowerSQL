@@ -497,8 +497,8 @@
     },
     "FastMember/1.5.0": {
       "type": "project",
-      "path": "../../../../source/repos/PowerSQL/fast-member/FastMember/FastMember.csproj",
-      "msbuildProject": "../../../../source/repos/PowerSQL/fast-member/FastMember/FastMember.csproj"
+      "path": "../FastMember/FastMember.csproj",
+      "msbuildProject": "../FastMember/FastMember.csproj"
     },
     "Google.Protobuf/3.19.4": {
       "sha512": "fd07/ykL4O4FhqrZIELm5lmiyOHfdPg9+o+hWr6tcfRdS7tHXnImg/2wtogLzlW2eEmr0J7j6ZrZvaWOLiJbxQ==",

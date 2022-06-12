@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\source\repos\PowerSQL\fast-member\FastMember\FastMember.csproj" />
+    <ProjectReference Include="..\FastMember\FastMember.csproj" />
   </ItemGroup>
 
 </Project>

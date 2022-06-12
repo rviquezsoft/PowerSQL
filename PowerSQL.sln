@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerSQL", "PowerSQL\PowerS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{59557DF3-5E5E-4172-BEC1-5C7725E64284}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastMember", "..\..\..\source\repos\PowerSQL\fast-member\FastMember\FastMember.csproj", "{CD1E9611-95F7-4843-8370-D76020756803}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastMember", "FastMember\FastMember.csproj", "{E4D98C77-69A4-42E6-BCAB-723FCD701939}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{59557DF3-5E5E-4172-BEC1-5C7725E64284}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59557DF3-5E5E-4172-BEC1-5C7725E64284}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59557DF3-5E5E-4172-BEC1-5C7725E64284}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CD1E9611-95F7-4843-8370-D76020756803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CD1E9611-95F7-4843-8370-D76020756803}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CD1E9611-95F7-4843-8370-D76020756803}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CD1E9611-95F7-4843-8370-D76020756803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D98C77-69A4-42E6-BCAB-723FCD701939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D98C77-69A4-42E6-BCAB-723FCD701939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D98C77-69A4-42E6-BCAB-723FCD701939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D98C77-69A4-42E6-BCAB-723FCD701939}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
