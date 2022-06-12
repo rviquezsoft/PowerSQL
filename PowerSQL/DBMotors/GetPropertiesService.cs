@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace PowerSQL.DBMotors
 {
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class GetPropertiesService<T> : IGetPropertiesService
     {
         /// <summary>

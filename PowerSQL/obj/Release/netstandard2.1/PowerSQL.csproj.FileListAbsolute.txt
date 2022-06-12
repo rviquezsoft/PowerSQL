@@ -1,0 +1,13 @@
+C:\Users\rviquez\Desktop\PowerSQL\PowerSQL\PowerSQL\bin\Release\netstandard2.1\PowerSQL.deps.json
+C:\Users\rviquez\Desktop\PowerSQL\PowerSQL\PowerSQL\bin\Release\netstandard2.1\PowerSQL.dll
+C:\Users\rviquez\Desktop\PowerSQL\PowerSQL\PowerSQL\bin\Release\netstandard2.1\PowerSQL.pdb
+C:\Users\rviquez\Desktop\PowerSQL\PowerSQL\PowerSQL\bin\Release\netstandard2.1\FastMember.dll
+C:\Users\rviquez\Desktop\PowerSQL\PowerSQL\PowerSQL\bin\Release\netstandard2.1\FastMember.pdb
+C:\Users\rviquez\Desktop\PowerSQL\PowerSQL\PowerSQL\obj\Release\netstandard2.1\PowerSQL.csproj.AssemblyReference.cache
+C:\Users\rviquez\Desktop\PowerSQL\PowerSQL\PowerSQL\obj\Release\netstandard2.1\PowerSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rviquez\Desktop\PowerSQL\PowerSQL\PowerSQL\obj\Release\netstandard2.1\PowerSQL.AssemblyInfoInputs.cache
+C:\Users\rviquez\Desktop\PowerSQL\PowerSQL\PowerSQL\obj\Release\netstandard2.1\PowerSQL.AssemblyInfo.cs
+C:\Users\rviquez\Desktop\PowerSQL\PowerSQL\PowerSQL\obj\Release\netstandard2.1\PowerSQL.csproj.CoreCompileInputs.cache
+C:\Users\rviquez\Desktop\PowerSQL\PowerSQL\PowerSQL\obj\Release\netstandard2.1\PowerSQL.csproj.CopyComplete
+C:\Users\rviquez\Desktop\PowerSQL\PowerSQL\PowerSQL\obj\Release\netstandard2.1\PowerSQL.dll
+C:\Users\rviquez\Desktop\PowerSQL\PowerSQL\PowerSQL\obj\Release\netstandard2.1\PowerSQL.pdb

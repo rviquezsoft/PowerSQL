@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.1/": {
       "PowerSQL/1.0.0": {
         "dependencies": {
+          "FastMember": "1.5.0",
           "Microsoft.CSharp": "4.7.0",
           "MySql.Data": "8.0.29",
           "Newtonsoft.Json": "13.0.1",
@@ -360,6 +361,14 @@
             "fileVersion": "4.6.28619.1"
           }
         }
+      },
+      "FastMember/1.5.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "FastMember.dll": {}
+        }
       }
     }
   },
@@ -599,6 +608,11 @@
       "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
       "path": "system.threading.tasks.extensions/4.5.4",
       "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    },
+    "FastMember/1.5.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

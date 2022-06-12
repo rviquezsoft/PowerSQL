@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Rsge4TzoVJZ4B+yECUsrjzYUwz2mRnNRanRi6QwFOSdvNQqMyw0ceXUnT4CxsmlkP5MSEnuZ+7Gziv5YpwiloA==",
+  "dgSpecHash": "2YbmLpmPxWPeU1x2yk/fmv+kbEpKtTFEmfFZH3GpbUOIOSsSnX/n/FK8qbgSZH3q1nIE50V5CmVkNdC/gDRfsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rviquez\\source\\repos\\PowerSQL\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\rviquez\\Desktop\\PowerSQL\\PowerSQL\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rviquez\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
+    "C:\\Users\\rviquez\\.nuget\\packages\\fastmember\\1.5.0\\fastmember.1.5.0.nupkg.sha512",
     "C:\\Users\\rviquez\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\rviquez\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",
     "C:\\Users\\rviquez\\.nuget\\packages\\k4os.compression.lz4.streams\\1.2.6\\k4os.compression.lz4.streams.1.2.6.nupkg.sha512",

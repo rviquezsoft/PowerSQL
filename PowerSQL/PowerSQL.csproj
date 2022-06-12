@@ -13,4 +13,8 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\source\repos\PowerSQL\fast-member\FastMember\FastMember.csproj" />
+  </ItemGroup>
+
 </Project>
