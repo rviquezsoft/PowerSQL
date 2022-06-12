@@ -7,42 +7,43 @@ using System.Data.SqlClient;
 using System.Diagnostics;
 
 
-
-IDBActionQuery<dynamic> query = new Select<dynamic>(
-    "Server=localhost;Initial Catalog=Tareas;User Id=sa;" +
+ string cnx = "Server=localhost;Initial Catalog=RICHARD;User Id=sa;" +
         "Password=sa;Persist Security Info=True;" +
-        "MultipleActiveResultSets=True;", new PrintExceptions(),
-    new GetPropertiesService<dynamic>(), new SQLParametersService(new PrintExceptions()),
-    new SerializeService(new PrintExceptions()),
-    new DeserealizeService<dynamic>(new PrintExceptions()));
+        "MultipleActiveResultSets=True;";
+PrintExceptions exceptions = new PrintExceptions();
+GetPropertiesService<TEST> propertiesService = new GetPropertiesService<TEST>();
+SQLParametersService sqlParametersService = new SQLParametersService(exceptions);
+SerializeService serializeService = new SerializeService(exceptions);
+DeserealizeService<TEST> deserealizeService = new DeserealizeService<TEST>(exceptions);
 
-IDBActionNonQuery insert = new Insert<prueba>(
-    "Server=localhost;Initial Catalog=Tareas;User Id=sa;" +
-        "Password=sa;Persist Security Info=True;" +
-        "MultipleActiveResultSets=True;", new PrintExceptions(),
-    new GetPropertiesService<prueba>(),
-    new SQLParametersService(new PrintExceptions()));
+IDBActionQuery<TEST> query = new Select<TEST>(cnx, exceptions,
+    propertiesService, sqlParametersService,serializeService,deserealizeService);
 
-List<prueba> objlist = new List<prueba>();
+IDBActionNonQuery insert = new Insert<TEST>(cnx, exceptions,
+    propertiesService,sqlParametersService);
+
+IBulkInsert<TEST> bulkInsert = new BulkInsert<TEST>(cnx,exceptions);
+
+List<TEST> list = new List<TEST>();
 
 Stopwatch stopWatch = new Stopwatch();
-for (int i = 0; i < 100; i++)
-{
-
-    stopWatch.Start();
-    objlist.Add(new prueba { ID = i.ToString(), DESCRIPCION = "desc" + i.ToString() });
-    //var inserted = await insert.execute("insert into prueba(ID,DESCRIPCION)VALUES(@ID,@DESC)",
-    //("@ID", Guid.NewGuid().ToString()), ("@DESC", "registro # " + Guid.NewGuid().ToString()));
-    Console.WriteLine("inserted");
-}
-
-//var result = await query.execute("SELECT ID,DESCRIPCION FROM prueba");
-
-//foreach (var item in result)
+//for (int i = 0; i < 1000000; i++)
 //{
+
 //    stopWatch.Start();
-//    Console.WriteLine(item.ID + "" + item.DESCRIPCION);
+//    list.Add(new TEST { ID = i.ToString(), NOMBRE = "desc" + i.ToString() });
+var inserted = await insert.buildAndExecute(("@ID","1002"),("@NOMBRE","VICTOR"));
+//    Console.WriteLine("inserted");
 //}
+//var res = await bulkInsert.BulkData(list);
+//Console.WriteLine(res);
+var result = await query.execute("SELECT * FROM TEST");
+
+foreach (var item in result)
+{
+    stopWatch.Start();
+    Console.WriteLine(item.ID + "---" + item.NOMBRE);
+}
 stopWatch.Stop();
 
 TimeSpan ts = stopWatch.Elapsed;
@@ -59,10 +60,10 @@ Console.ReadKey();
 
 
 
-class prueba
+class TEST
 {
     public string? ID { get; set; }
-    public string? DESCRIPCION { get; set; }
+    public string? NOMBRE { get; set; }
    
 }
 

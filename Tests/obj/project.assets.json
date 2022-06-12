@@ -1475,51 +1475,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rviquez\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/richardviquez/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rviquez\\Desktop\\PowerSQL\\PowerSQL\\Tests\\Tests.csproj",
+      "projectUniqueName": "/Users/richardviquez/Projects/PowerSQL/Tests/Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\rviquez\\Desktop\\PowerSQL\\PowerSQL\\Tests\\Tests.csproj",
-      "packagesPath": "C:\\Users\\rviquez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rviquez\\Desktop\\PowerSQL\\PowerSQL\\Tests\\obj\\",
+      "projectPath": "/Users/richardviquez/Projects/PowerSQL/Tests/Tests.csproj",
+      "packagesPath": "/Users/richardviquez/.nuget/packages/",
+      "outputPath": "/Users/richardviquez/Projects/PowerSQL/Tests/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\rviquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/richardviquez/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "S:\\Movil\\Recientes\\toolsnuget": {},
-        "S:\\Movil\\nuggets": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/rviquez0168/Conexion.Core/_packaging/CoreConexion/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\rviquez\\Desktop\\PowerSQL\\PowerSQL\\PowerSQL\\PowerSQL.csproj": {
-              "projectPath": "C:\\Users\\rviquez\\Desktop\\PowerSQL\\PowerSQL\\PowerSQL\\PowerSQL.csproj"
+            "/Users/richardviquez/Projects/PowerSQL/PowerSQL/PowerSQL.csproj": {
+              "projectPath": "/Users/richardviquez/Projects/PowerSQL/PowerSQL/PowerSQL.csproj"
             }
           }
         }
@@ -1554,7 +1535,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
       }
     }
   },

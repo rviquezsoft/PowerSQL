@@ -185,7 +185,7 @@
         "runtime": {
           "lib/net462/Oracle.ManagedDataAccess.dll": {
             "assemblyVersion": "4.122.21.1",
-            "fileVersion": "4.122.21.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },

@@ -14,5 +14,4 @@
   <ItemGroup>
     <ProjectReference Include="..\PowerSQL\PowerSQL.csproj" />
   </ItemGroup>
-
 </Project>
