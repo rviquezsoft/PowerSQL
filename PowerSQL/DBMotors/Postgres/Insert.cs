@@ -1,32 +1,27 @@
-﻿using PowerSQL.Exceptions;
-using PowerSQL.Interfaces;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Data;
-using System.Data.SqlClient;
 using System.Reflection;
-using System.Text;
 using System.Threading.Tasks;
+using Npgsql;
+using PowerSQL.Exceptions;
+using PowerSQL.Interfaces;
 
-namespace PowerSQL.DBMotors.SQLServer
+namespace PowerSQL.DBMotors.Postgres
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <typeparam name="T"></typeparam>
-    public class Update<T> : DBMotorBase<T>, IDBActionNonQuery
+	public class Insert<T> : DBMotorBase<T>, IDBActionNonQuery
     {
         private readonly IPrintExceptions exceptions;
         private readonly IGetPropertiesService propertiesService;
-        private readonly ISQLParametersService sqlParameterService;
-        public Update(string _connection,
-             IPrintExceptions _exceptions,
+        private readonly INpgsqlParametersService sqlParameterService;
+
+        public Insert(string _connection,
+            IPrintExceptions _exceptions,
             IGetPropertiesService _propertiesService,
-            ISQLParametersService _sqlParameterService) : base(_connection)
+            INpgsqlParametersService _sqlParameterService) : base(_connection)
         {
-            exceptions = _exceptions;  
-            propertiesService = _propertiesService;    
-            sqlParameterService = _sqlParameterService;    
+            exceptions = _exceptions;
+            propertiesService = _propertiesService;
+            sqlParameterService = _sqlParameterService;
         }
         /// <summary>
         /// 
@@ -35,29 +30,25 @@ namespace PowerSQL.DBMotors.SQLServer
         /// <returns></returns>
         private string build(PropertyInfo[] props)
         {
+            string Columns = "";
             string Parameters = "";
             try
             {
                 for (int i = 0; i < props.Length; i++)
                 {
-                    Parameters += (i == props.Length - 1) ? $"{props[i].Name}=@{props[i].Name}" : $"{props[i].Name}=@{props[i].Name},";
+                    Columns += (i == props.Length - 1) ? $"{props[i].Name}" : $"{props[i].Name},";
+                    Parameters += (i == props.Length - 1) ? $"@{props[i].Name}" : $"@{props[i].Name},";
                 }
             }
             catch (Exception e)
             {
                 exceptions.printException(e);
             }
-            return $"update  {typeof(T).Name} set {Parameters};";
+            return $"insert into " +
+                    $"{typeof(T).Name}({Columns})values(" +
+                        $"{Parameters});";
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="pars"></param>
-        /// <returns></returns>
-        public async Task<int> buildAndExecute(params (string name, object val)[] pars)
-        {
-            return await execute(build(propertiesService.getProps()),pars);
-        }
+
         /// <summary>
         /// 
         /// </summary>
@@ -76,7 +67,7 @@ namespace PowerSQL.DBMotors.SQLServer
                 {
                     return result;
                 }
-                using (var sql = new SqlConnection(connection))
+                using (var sql = new NpgsqlConnection(connection))
                 {
                     if (sql == null)
                     {
@@ -101,17 +92,26 @@ namespace PowerSQL.DBMotors.SQLServer
         /// <summary>
         /// 
         /// </summary>
+        /// <param name="pars"></param>
+        /// <returns></returns>
+        public async Task<int> buildAndExecute(params (string name, object val)[] pars)
+        {
+            return await execute(build(propertiesService.getProps()), pars);
+        }
+        /// <summary>
+        /// 
+        /// </summary>
         /// <param name="sql"></param>
         /// <param name="query"></param>
         /// <param name="pars"></param>
         /// <returns></returns>
-        private async Task<int> processCommand(SqlConnection sql,
-       string query, params (string name, object val)[] pars)
+        private async Task<int> processCommand(NpgsqlConnection sql,
+           string query, params (string name, object val)[] pars)
         {
             int result = 0;
             try
             {
-                using (var cmd = new SqlCommand(query, sql))
+                using (var cmd = new NpgsqlCommand(query, sql))
                 {
                     //add parameters
                     if (pars != null && pars.Length > 0)
@@ -129,3 +129,4 @@ namespace PowerSQL.DBMotors.SQLServer
         }
     }
 }
+

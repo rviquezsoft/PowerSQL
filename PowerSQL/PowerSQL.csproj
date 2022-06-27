@@ -20,4 +20,14 @@
     <ProjectReference Include="..\FastMember\FastMember.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="DBMotors\Postgres\" />
+    <None Remove="DBMotors\Mysql\" />
+    <None Remove="DBMotors\Oracle\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DBMotors\Postgres\" />
+    <Folder Include="DBMotors\Mysql\" />
+    <Folder Include="DBMotors\Oracle\" />
+  </ItemGroup>
 </Project>

@@ -8,7 +8,7 @@ using System.Diagnostics;
 
 
  string cnx = "Server=localhost;Initial Catalog=RICHARD;User Id=sa;" +
-        "Password=sa;Persist Security Info=True;" +
+        "Password=Rivipe19866.;Persist Security Info=True;" +
         "MultipleActiveResultSets=True;";
 PrintExceptions exceptions = new PrintExceptions();
 GetPropertiesService<TEST> propertiesService = new GetPropertiesService<TEST>();
@@ -22,6 +22,11 @@ IDBActionQuery<TEST> query = new Select<TEST>(cnx, exceptions,
 IDBActionNonQuery insert = new Insert<TEST>(cnx, exceptions,
     propertiesService,sqlParametersService);
 
+IDBActionNonQuery update = new Update<TEST>(cnx, exceptions,
+    propertiesService, sqlParametersService);
+
+IDBActionNonQuery delete = new Delete<TEST>(cnx, exceptions, sqlParametersService);
+
 IBulkInsert<TEST> bulkInsert = new BulkInsert<TEST>(cnx,exceptions);
 
 List<TEST> list = new List<TEST>();
@@ -32,7 +37,9 @@ Stopwatch stopWatch = new Stopwatch();
 
 //    stopWatch.Start();
 //    list.Add(new TEST { ID = i.ToString(), NOMBRE = "desc" + i.ToString() });
-var inserted = await insert.buildAndExecute(("@ID","1002"),("@NOMBRE","VICTOR"));
+//var inserted = await insert.buildAndExecute(("@ID","1002"),("@NOMBRE","VICTOR"));
+//var updated = await update.execute("update TEST set ID=@ID WHERE ID=@ID2",("@ID", "1001"), ("@ID2", "1002"));
+//var deleted = await delete.buildAndExecute();
 //    Console.WriteLine("inserted");
 //}
 //var res = await bulkInsert.BulkData(list);
