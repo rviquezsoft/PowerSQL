@@ -16,7 +16,9 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PowerSQL" expanded="True" />
+          <Node name="PowerSQL" expanded="True">
+            <Node name="Tests" expanded="True" />
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
