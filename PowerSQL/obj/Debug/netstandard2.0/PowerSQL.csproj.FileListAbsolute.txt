@@ -34,3 +34,16 @@ C:/Users/rviquez/Desktop/PowerSQL/PowerSQL/PowerSQL/obj/Debug/netstandard2.0/Pow
 /Users/richardviquez/Projects/PowerSQL/PowerSQL/obj/Debug/netstandard2.0/PowerSQL.csproj.CopyComplete
 /Users/richardviquez/Projects/PowerSQL/PowerSQL/obj/Debug/netstandard2.0/PowerSQL.dll
 /Users/richardviquez/Projects/PowerSQL/PowerSQL/obj/Debug/netstandard2.0/PowerSQL.pdb
+/Users/mobilesofnomic/Desktop/power/PowerSQL/PowerSQL/bin/Debug/netstandard2.0/PowerSQL.deps.json
+/Users/mobilesofnomic/Desktop/power/PowerSQL/PowerSQL/bin/Debug/netstandard2.0/PowerSQL.dll
+/Users/mobilesofnomic/Desktop/power/PowerSQL/PowerSQL/bin/Debug/netstandard2.0/PowerSQL.pdb
+/Users/mobilesofnomic/Desktop/power/PowerSQL/PowerSQL/bin/Debug/netstandard2.0/FastMember.dll
+/Users/mobilesofnomic/Desktop/power/PowerSQL/PowerSQL/bin/Debug/netstandard2.0/FastMember.pdb
+/Users/mobilesofnomic/Desktop/power/PowerSQL/PowerSQL/obj/Debug/netstandard2.0/PowerSQL.csproj.AssemblyReference.cache
+/Users/mobilesofnomic/Desktop/power/PowerSQL/PowerSQL/obj/Debug/netstandard2.0/PowerSQL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mobilesofnomic/Desktop/power/PowerSQL/PowerSQL/obj/Debug/netstandard2.0/PowerSQL.AssemblyInfoInputs.cache
+/Users/mobilesofnomic/Desktop/power/PowerSQL/PowerSQL/obj/Debug/netstandard2.0/PowerSQL.AssemblyInfo.cs
+/Users/mobilesofnomic/Desktop/power/PowerSQL/PowerSQL/obj/Debug/netstandard2.0/PowerSQL.csproj.CoreCompileInputs.cache
+/Users/mobilesofnomic/Desktop/power/PowerSQL/PowerSQL/obj/Debug/netstandard2.0/PowerSQL.csproj.CopyComplete
+/Users/mobilesofnomic/Desktop/power/PowerSQL/PowerSQL/obj/Debug/netstandard2.0/PowerSQL.dll
+/Users/mobilesofnomic/Desktop/power/PowerSQL/PowerSQL/obj/Debug/netstandard2.0/PowerSQL.pdb

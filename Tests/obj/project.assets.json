@@ -1475,19 +1475,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/richardviquez/.nuget/packages/": {}
+    "/Users/mobilesofnomic/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/richardviquez/Projects/PowerSQL/Tests/Tests.csproj",
+      "projectUniqueName": "/Users/mobilesofnomic/Desktop/power/PowerSQL/Tests/Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "/Users/richardviquez/Projects/PowerSQL/Tests/Tests.csproj",
-      "packagesPath": "/Users/richardviquez/.nuget/packages/",
-      "outputPath": "/Users/richardviquez/Projects/PowerSQL/Tests/obj/",
+      "projectPath": "/Users/mobilesofnomic/Desktop/power/PowerSQL/Tests/Tests.csproj",
+      "packagesPath": "/Users/mobilesofnomic/.nuget/packages/",
+      "outputPath": "/Users/mobilesofnomic/Desktop/power/PowerSQL/Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/richardviquez/.nuget/NuGet/NuGet.Config"
+        "/Users/mobilesofnomic/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1499,8 +1499,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/richardviquez/Projects/PowerSQL/PowerSQL/PowerSQL.csproj": {
-              "projectPath": "/Users/richardviquez/Projects/PowerSQL/PowerSQL/PowerSQL.csproj"
+            "/Users/mobilesofnomic/Desktop/power/PowerSQL/PowerSQL/PowerSQL.csproj": {
+              "projectPath": "/Users/mobilesofnomic/Desktop/power/PowerSQL/PowerSQL/PowerSQL.csproj"
             }
           }
         }
@@ -1535,7 +1535,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
       }
     }
   },

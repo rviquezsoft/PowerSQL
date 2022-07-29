@@ -1716,20 +1716,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/richardviquez/.nuget/packages/": {}
+    "/Users/mobilesofnomic/.nuget/packages/": {}
   },
   "project": {
     "version": "1.5.0",
     "restore": {
-      "projectUniqueName": "/Users/richardviquez/Projects/PowerSQL/FastMember/FastMember.csproj",
+      "projectUniqueName": "/Users/mobilesofnomic/Desktop/power/PowerSQL/FastMember/FastMember.csproj",
       "projectName": "FastMember",
-      "projectPath": "/Users/richardviquez/Projects/PowerSQL/FastMember/FastMember.csproj",
-      "packagesPath": "/Users/richardviquez/.nuget/packages/",
-      "outputPath": "/Users/richardviquez/Projects/PowerSQL/FastMember/obj/",
+      "projectPath": "/Users/mobilesofnomic/Desktop/power/PowerSQL/FastMember/FastMember.csproj",
+      "packagesPath": "/Users/mobilesofnomic/.nuget/packages/",
+      "outputPath": "/Users/mobilesofnomic/Desktop/power/PowerSQL/FastMember/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
-        "/Users/richardviquez/.nuget/NuGet/NuGet.Config"
+        "/Users/mobilesofnomic/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0",
@@ -1803,7 +1803,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
       },
       "netstandard2.1": {
         "targetAlias": "netstandard2.1",
@@ -1828,7 +1828,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
       }
     }
   }

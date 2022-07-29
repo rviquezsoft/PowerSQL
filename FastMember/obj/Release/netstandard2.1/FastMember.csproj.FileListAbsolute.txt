@@ -28,3 +28,13 @@ C:/Users/rviquez/Desktop/PowerSQL/PowerSQL/FastMember/obj/Release/netstandard2.1
 /Users/richardviquez/Projects/PowerSQL/FastMember/obj/Release/netstandard2.1/FastMember.csproj.CoreCompileInputs.cache
 /Users/richardviquez/Projects/PowerSQL/FastMember/obj/Release/netstandard2.1/FastMember.dll
 /Users/richardviquez/Projects/PowerSQL/FastMember/obj/Release/netstandard2.1/FastMember.pdb
+/Users/mobilesofnomic/Desktop/power/PowerSQL/FastMember/bin/Release/netstandard2.1/FastMember.deps.json
+/Users/mobilesofnomic/Desktop/power/PowerSQL/FastMember/bin/Release/netstandard2.1/FastMember.dll
+/Users/mobilesofnomic/Desktop/power/PowerSQL/FastMember/bin/Release/netstandard2.1/FastMember.pdb
+/Users/mobilesofnomic/Desktop/power/PowerSQL/FastMember/obj/Release/netstandard2.1/FastMember.csproj.AssemblyReference.cache
+/Users/mobilesofnomic/Desktop/power/PowerSQL/FastMember/obj/Release/netstandard2.1/FastMember.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mobilesofnomic/Desktop/power/PowerSQL/FastMember/obj/Release/netstandard2.1/FastMember.AssemblyInfoInputs.cache
+/Users/mobilesofnomic/Desktop/power/PowerSQL/FastMember/obj/Release/netstandard2.1/FastMember.AssemblyInfo.cs
+/Users/mobilesofnomic/Desktop/power/PowerSQL/FastMember/obj/Release/netstandard2.1/FastMember.csproj.CoreCompileInputs.cache
+/Users/mobilesofnomic/Desktop/power/PowerSQL/FastMember/obj/Release/netstandard2.1/FastMember.dll
+/Users/mobilesofnomic/Desktop/power/PowerSQL/FastMember/obj/Release/netstandard2.1/FastMember.pdb
