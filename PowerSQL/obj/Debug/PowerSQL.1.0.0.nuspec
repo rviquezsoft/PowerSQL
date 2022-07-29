@@ -29,7 +29,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="/Users/mobilesofnomic/Desktop/power/PowerSQL/PowerSQL/bin/Release/netstandard2.0/PowerSQL.dll" target="lib/netstandard2.0/PowerSQL.dll" />
-    <file src="/Users/mobilesofnomic/Desktop/power/PowerSQL/PowerSQL/bin/Release/netstandard2.1/PowerSQL.dll" target="lib/netstandard2.1/PowerSQL.dll" />
+    <file src="/Users/mobilesofnomic/Desktop/power/PowerSQL/PowerSQL/bin/Debug/netstandard2.0/PowerSQL.dll" target="lib/netstandard2.0/PowerSQL.dll" />
+    <file src="/Users/mobilesofnomic/Desktop/power/PowerSQL/PowerSQL/bin/Debug/netstandard2.1/PowerSQL.dll" target="lib/netstandard2.1/PowerSQL.dll" />
   </files>
 </package>

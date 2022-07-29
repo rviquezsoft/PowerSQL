@@ -10,13 +10,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("PowerSQL")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("DARNES")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute(@"Mini ORM, as powerful in performance as dapper or even better. In queries with large amounts of data it does not consume as much memory as the Entity framework because it uses FastMember instead of datatables. In tests carried out, it was found that with 1,000,000 records, memory consumption and performance were better than with Entity framework, the difference was approximately 1 minute and 30 seconds of difference in performance and approximately 1 GB of difference in memory consumption! !.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PowerSQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PowerSQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/rviquezsoft/PowerSQL")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
 

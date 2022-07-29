@@ -2,10 +2,9 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="Tests/Program.cs">
     <Files>
-      <File FileName="Tests/Program.cs" Line="22" Column="19" />
+      <File FileName="Tests/Program.cs" Line="23" Column="45" />
       <File FileName="PowerSQL/DBMotors/DBMotorBase.cs" Line="1" Column="1" />
       <File FileName="PowerSQL/DBMotors/DeserealizeService.cs" Line="11" Column="42" />
       <File FileName="PowerSQL/DBMotors/SQLServer/Select.cs" Line="1" Column="1" />
@@ -17,17 +16,7 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PowerSQL" expanded="True">
-            <Node name="PowerSQL" expanded="True">
-              <Node name="DBMotors" expanded="True">
-                <Node name="SQLServer" expanded="True" />
-              </Node>
-              <Node name="Interfaces" expanded="True" />
-            </Node>
-            <Node name="Tests" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
+          <Node name="PowerSQL" expanded="True" />
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -35,7 +24,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.ItemProperties.Tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>
